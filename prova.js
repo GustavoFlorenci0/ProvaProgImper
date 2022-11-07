@@ -52,6 +52,7 @@ function microOndas(prato, tempoDePreparo= -1) {
             break;
        
         default:
+            return 'Prato inexistente'
             break;
     }
     
@@ -71,3 +72,4 @@ console.log(prato1);
 console.log(prato2);
 console.log(prato3);
 console.log(prato4);
+
